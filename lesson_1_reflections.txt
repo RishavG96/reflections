@@ -1,0 +1,11 @@
+1.How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+A.Using the diff -u old_file.txt new_file.txt helped me see the bug between these two versions of the file as for every line that was different from was pointed out by the version control.
+
+2.How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+A.Suppose that I have a long file that has been changed to a different file having a lot of changes done in it. Then having an easy access to the entire history will increase the efficiency of the code and I would thus be a better programmer.
+
+3.What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+A.Pros of manually creating commit is that after only a logical change our file can be saved and not automatically, if the file is saved automatically then we maybe in the middle of a line of code which gets saved and thus is of no use afterwards.
+Cons of manually saving commit is that we might tend to forget to save our file and commit them. This will result in loss of our code.
+
