@@ -9,3 +9,15 @@ A.Suppose that I have a long file that has been changed to a different file havi
 A.Pros of manually creating commit is that after only a logical change our file can be saved and not automatically, if the file is saved automatically then we maybe in the middle of a line of code which gets saved and thus is of no use afterwards.
 Cons of manually saving commit is that we might tend to forget to save our file and commit them. This will result in loss of our code.
 
+4.Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+A.Saving multiple files inter related to one another is useful as changes made in one file also reflects change in other file in the repository. Thus saving one file and not saving the other one would cause uneven balance.
+
+5.How can you use the commands git log and git diff to view the history of files?
+A.Using git log it shows the list of recent commits with the information about them in the repository.
+Using git diff and followed by two id of two commits we can note the changes made in the file. The green line shows the added line and the red line shows the deleted line.
+
+6.How might using version control make you more confident to make changes that could break something?
+A.Using version control helps me check in which file the error has occurred. So I can check any versions of the file in which the error has occurred using version control. I can now make any changes at at large amount without taking the risk that this code might work or not because I can revert back to any previous version at any point of time.
+
+7.Now that you have your workspace set up, what do you want to try using Git for?
+A.I want to use git to commit my code as and when i go on coding.
