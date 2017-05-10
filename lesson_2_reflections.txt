@@ -1,4 +1,7 @@
 1.What happens when you initialize a repository? Why do you need to do it?
 A.When I initialise a repository a hidden file called .git file is created in that directory. I will need to create it as for a directory to be made a git repository it has to be initialised.
 
-2.
+2.How is the staging area different from the working directory and the repository? What value do you think it offers?
+A.Staging are is the intermediate branch which is used if we do not want to commit all the files from the working directory to the repository. It helps us to selectively commit files from a working directory.
+
+3.
