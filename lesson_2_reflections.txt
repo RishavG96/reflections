@@ -4,4 +4,18 @@ A.When I initialise a repository a hidden file called .git file is created in th
 2.How is the staging area different from the working directory and the repository? What value do you think it offers?
 A.Staging are is the intermediate branch which is used if we do not want to commit all the files from the working directory to the repository. It helps us to selectively commit files from a working directory.
 
-3.
+3.How can you use the staging area to make sure you have one commit per logical change?
+A.By using the keyword "add" using the command git add filename, we can add and commit as soon as one logical change has been made and we need not add all the files in the staging area.
+
+4.What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A.Some cases like when we want to make a logical change and do not want the previous version to be disturbed, then making branches helps a lot for having two different files that can be used.
+
+5.How do the diagrams help you visualize the branch structure?
+A.They tell us the parent of each commit. By knowing the parent of each commit we can know how many changes we have done until now.
+
+6.What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+A.We merge two branches together when we want to comine two seperate work done on the same project. We represent it in the diagram to show the parent of the merged branch.
+
+7.What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+A. Git merges two commits in a way that the same part of the code does not have to be typed again and git handles that issue itself. If I want to add modified versions of the same code then we have to choose which version should be in the final commit.
+
