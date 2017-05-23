@@ -8,3 +8,5 @@ Q)What is the benefit of having a copy of the last known state of the remote sto
 A)If we have a copy of the last known state of the remote stored then we can access the file locally and then if required we can merge the last known state with the new chnages made locally to give a merged commit.
 Q)How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 A)I will have to personally visit the person I am collaborating with and discuss the code and then collaborate.
+Q)When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+A)I would want to make changes in a seperate branch when I don't want to disturb the main master branch when implimenting a new concept into the file. I would make braches only when I am working on some experimental part of the code and if it is successful then I merge it with the master.
