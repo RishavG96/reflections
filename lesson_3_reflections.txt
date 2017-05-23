@@ -6,3 +6,5 @@ Q)Describe the differences between forks, clones, and branches. When would you u
 A)Forks are used to copy a repository in someone's GitHub profile into your GitHub profile. Clone is required when you want to copy the repository of my GitHub account into my local computer. Branches are required when you want to make two or more copies of a single file and then use it differently.
 Q)What is the benefit of having a copy of the last known state of the remote stored locally?
 A)If we have a copy of the last known state of the remote stored then we can access the file locally and then if required we can merge the last known state with the new chnages made locally to give a merged commit.
+Q)How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+A)I will have to personally visit the person I am collaborating with and discuss the code and then collaborate.
