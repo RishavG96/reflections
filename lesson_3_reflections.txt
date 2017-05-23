@@ -4,3 +4,5 @@ Q)Why might you want to always pull changes manually rather than having Git auto
 A)I would want to pull changes manually beacuse I may be in the middle of some work and if Git copies the incomplete file into its repository then it would lead to an error. Thus completing a logical task and then pulling the changes manually is the best option.
 Q)Describe the differences between forks, clones, and branches. When would you use one instead of another?
 A)Forks are used to copy a repository in someone's GitHub profile into your GitHub profile. Clone is required when you want to copy the repository of my GitHub account into my local computer. Branches are required when you want to make two or more copies of a single file and then use it differently.
+Q)What is the benefit of having a copy of the last known state of the remote stored locally?
+A)If we have a copy of the last known state of the remote stored then we can access the file locally and then if required we can merge the last known state with the new chnages made locally to give a merged commit.
